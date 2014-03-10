@@ -1,0 +1,125 @@
+/*the styling within these brackets will apply to the main header*/
+h1{
+	font-family: 'Milonga', cursive;
+	font-size: 100px;
+	text-align: center;
+	background-color: FF9966;
+	color: white;
+}
+
+h3{
+	font-family: 'Karla', sans-serif;
+	font-size: 25px;
+}
+
+/*the styling within these brackets will apply to the body texts*/
+body{
+	font-family: 'Karla', sans-serif;
+}
+
+footer{
+	font-family: 'Karla', sans-serif;
+	color: white;
+}
+
+.scene {
+	width: 400px;
+	height: 40px;
+	margin: 100px auto;	
+}
+
+.circle {
+	width: 40px;
+	height: 40px;	
+	border-top-right-radius: 40px;
+	float: left;
+	-webkit-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+}
+
+.aa {
+	-webkit-animation: rotate1 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate1 .8s ease-in-out alternate infinite;
+	background-color: rgb(0, 152, 255);	
+}
+
+.bb {
+	-webkit-animation: rotate2 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate2 .8s ease-in-out alternate infinite;
+	background-color: rgb(100, 125, 255);	
+	-webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}
+
+.cc {
+	-webkit-animation: rotate1 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate1 .8s ease-in-out alternate infinite;
+	background-color: rgb(167, 98, 255);	
+}
+
+.dd {
+	-webkit-animation: rotate2 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate2 .8s ease-in-out alternate infinite;
+	background-color: rgb(237, 87, 255);
+	-webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}
+
+.ee {
+	-webkit-animation: rotate1 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate1 .8s ease-in-out alternate infinite;
+	background-color: rgb(255, 81, 113);	
+}
+
+.ff {
+	-webkit-animation: rotate2 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate2 .8s ease-in-out alternate infinite;
+	background-color: rgb(255, 49, 148);
+	-webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}
+
+.gg {
+	-webkit-animation: rotate1 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate1 .8s ease-in-out alternate infinite;
+	background-color: rgb(235, 47, 0);	
+}
+
+.hh {
+	-webkit-animation: rotate2 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate2 .8s ease-in-out alternate infinite;
+	background-color: rgb(232, 83, 0);
+	-webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}
+
+.ii {
+	-webkit-animation: rotate1 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate1 .8s ease-in-out alternate infinite;
+	background-color: rgb(232, 120, 0);	
+}
+
+.jj {
+	-webkit-animation: rotate2 .8s ease-in-out alternate infinite;
+  -moz-animation: rotate2 .8s ease-in-out alternate infinite;
+	background-color: rgb(232, 158, 0);
+	-webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+}
+
+@-webkit-keyframes rotate1 {
+	100% {-webkit-transform: rotate(-360deg);}	
+}
+
+@-moz-keyframes rotate1 {
+	100% {-moz-transform: rotate(-360deg);}	
+}
+
+@-webkit-keyframes rotate2 {
+	100% {-webkit-transform: rotate(450deg);}	
+}
+
+@-moz-keyframes rotate2 {
+	100% {-moz-transform: rotate(450deg);}	
+}
+
